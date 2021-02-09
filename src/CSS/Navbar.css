@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Parisienne&display=swap');
+
+.navIcon {
+    margin-right: 10px !important;
+    max-height: 55px !important;
+    max-width: 55px !important;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: rgb(255, 39, 1) !important;
+    font-size: 32px !important;
+    font-family: 'Parisienne', cursive;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+    text-shadow: 5px 2px 5px rgba(221, 211, 211, 0.5);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(100, 100, 100, 0.5) !important;
+    border-radius: 25px;
+    cursor: pointer !important;
+}
