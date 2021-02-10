@@ -12,6 +12,9 @@ import '../CSS/Navbar.css'
 // All Image Imports
 import foodImg from '../img/food.png'
 
+const browserReload = () => {
+    window.location.reload()
+}
 
 const Navabr = () => {
     return (
@@ -24,7 +27,7 @@ const Navabr = () => {
                         YumYum
                     </div>
                     <div className="d-flex justify-content-center text-light">
-                        <div className="nav-item" >
+                        <div className="nav-item" onClick={browserReload}>
                             <Link to={"/"} className="nav-link">Home</Link>
                         </div>
                         <div className="nav-item">
