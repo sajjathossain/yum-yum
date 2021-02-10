@@ -26,9 +26,6 @@ export class Main extends Component {
 
         this.setState({isFetching: false, ingredient: e.target.value, meals: convertToJSON.meals})
 
-        console.log("Fetching Food...")
-        console.log('Json data',convertToJSON)
-
         if(this.state.meals === null) {
             alert("No Recipy Found! Try Another")
         } 

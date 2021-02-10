@@ -1,0 +1,10 @@
+.recipeCard {
+    height: 100%;
+    width: 100%;
+    /* padding: 2vh 2vw; */
+}
+.food-image {
+    height: 40vh;
+    width: 100%;
+    padding: 0 10px;
+}
